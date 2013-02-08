@@ -1,0 +1,8 @@
+<h1>Localize a Web page</h1>
+
+<%= form_for @website do |f| %>
+<div class="input-append">
+	<%= f.text_field :url, :class => 'span8', :id => 'appendedInputButtons', :placeholder => 'http://' %>
+	<%= f.submit 'Localize Page', :class => 'btn' %>
+</div>
+<% end %>
